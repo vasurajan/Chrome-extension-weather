@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon for the tab -->
+    <link rel="icon" href="weather.png">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Bootstrap links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/open-fonts@1.1.1/fonts/inter.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+    <!-- External css linked -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- A separate div(container) for the video -->
+<div class="banner">        
+    <video autoplay muted loop>
+        <source src="bg.mp4" type="video/mp4">
+    </video>
+</div>
+<div id = "container"><h1>Enter the Location</h1>
+<br>
+<!-- Input for the user to enter location -->
+    <input placeholder="City" id="search">
+    <br>
+    <!-- Selecting units for the temperature(deg. F/C) -->
+    <select id="units">
+        <option value="f">Farhrenheit</option>
+        <option value="m">Celcius</option>
+    </select>
+    <br>
+    <button id="btn">Get Weather</button>
+    <br>
+    <br>
+    <img id="image" src="" />
+    <div id="output"></div>
+</div>
+  
+    <script src="app/content.js"></script>
+</body>
+
+</html>
