@@ -6,7 +6,7 @@ The main aim of an extension is to serve a single purpose around which the whole
 An extension should have the minimal interface or it can extend to a web page also but main focus is to provide good functionality with less overhead.
 Extension are zipped into a in .crx package, the user needs to download the package and install it. Chrome extension is published in the Chrome web store.
 
-## Some examples of chrome extension:\
+## Some examples of chrome extension:
 Password manager. \
 Ads blocker. \
 Adding to-do lists or notes to Chrome. \
