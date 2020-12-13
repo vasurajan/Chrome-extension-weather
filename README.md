@@ -14,4 +14,4 @@ Making it easier to copy text from a site.
 
 ### Project Demo
 
-[GIF](https://github.com/vasurajan/Chrome-extension-weather/blob/master/chrome-extension-min.gif?raw=true)
+![Untitled design](https://github.com/vasurajan/Chrome-extension-weather/blob/master/chrome-extension-min.gif?raw=true)
